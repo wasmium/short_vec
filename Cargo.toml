@@ -1,0 +1,14 @@
+[package]
+name = "short_vec"
+version = "0.1.0"
+description = "Solana library for creating compact arrays for account addresses and signatures"
+authors = ["Solana Maintainers <maintainers@solana.com>"]
+repository = "https://github.com/solana-labs/solana"
+license = "Apache-2.0"
+homepage = "https://solana.com/"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0.133", features = ["derive"] }
